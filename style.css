@@ -1,0 +1,39 @@
+/*navbar*/
+.nav-bar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/*botones grid y list*/
+.btn-group {
+    display: flex;
+    justify-content: center;
+    /* Centra los botones horizontalmente */
+    align-items: center;
+}
+.btn {
+    margin: 0 5px; /* Añade un pequeño espacio entre los botones */
+}
+
+/*card post*/
+.feed-container {
+    margin: 20px auto;
+}
+
+.grid-view .card {
+    width: 100%;
+}
+
+.grid-view .row {
+    gap: 20px;
+}
+
+.list-view .card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.list-view .post-title {
+    font-weight: bold;
+}
